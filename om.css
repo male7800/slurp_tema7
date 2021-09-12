@@ -4,10 +4,16 @@
   color: black;
 }
 
-#om_os .details {
-  font-size: 12px;
-  font-family: "nasalization", sans-serif;
-  color: black;
+#image_snake {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  gap: 10px;
+}
+
+.details {
+  gap: 10px;
 }
 
 #om_os h1 {
@@ -64,38 +70,6 @@ om_os h4 {
   color: black;
 }
 
-#om_os .color {
-  height: 70px;
-  width: 70px;
-  border: 5px solid #fff;
-}
-
-#om_os .colors div {
-  height: 70px;
-  width: 70px;
-  border: 5px solid #fff;
-}
-
-#om_os .color_1 {
-  background: #022873;
-}
-
-#om_os .color_2 {
-  background: #590e3f;
-}
-
-#om_os .color_3 {
-  background: #8c65a6;
-}
-
-#om_os .color_4 {
-  background: #0597f2;
-}
-
-#om_os .color_5 {
-  background: #f7f9fa;
-}
-
 #om_os .colors {
   display: flex;
   flex-flow: wrap;
@@ -104,13 +78,9 @@ om_os h4 {
 
 #om_os {
   display: grid;
-
-  gap: 10px;
-  max-width: 1000px;
-  margin: auto;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 }
 
-#om_os .headings {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
+#second_section {
+  padding-right: 5%;
 }
