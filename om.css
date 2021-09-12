@@ -1,0 +1,116 @@
+#om_os hr {
+  border: 0;
+  border-top: 1px solid;
+  color: black;
+}
+
+#om_os .details {
+  font-size: 12px;
+  font-family: "nasalization", sans-serif;
+  color: black;
+}
+
+#om_os h1 {
+  font-family: "ethnocentric", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  line-height: 1.125;
+  margin-bottom: 10px;
+}
+
+#om_os h2,
+om_os h3,
+om_os h4 {
+  font-family: "nasalization", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.125;
+  color: black;
+}
+
+#om_os h2 {
+  font-family: "nasalization", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 39px;
+  margin-bottom: 10px;
+}
+
+#om_os h3 {
+  font-family: "nasalization", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+}
+
+#om_os h4 {
+  font-family: "nasalization", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+}
+
+#om_os p {
+  font-family: "nasalization", sans-serif;
+  line-height: 1.4;
+  color: black;
+}
+
+#om_os a {
+  font-family: "nasalization", sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+}
+
+#om_os .color {
+  height: 70px;
+  width: 70px;
+  border: 5px solid #fff;
+}
+
+#om_os .colors div {
+  height: 70px;
+  width: 70px;
+  border: 5px solid #fff;
+}
+
+#om_os .color_1 {
+  background: #022873;
+}
+
+#om_os .color_2 {
+  background: #590e3f;
+}
+
+#om_os .color_3 {
+  background: #8c65a6;
+}
+
+#om_os .color_4 {
+  background: #0597f2;
+}
+
+#om_os .color_5 {
+  background: #f7f9fa;
+}
+
+#om_os .colors {
+  display: flex;
+  flex-flow: wrap;
+  gap: 20px;
+}
+
+#om_os {
+  display: grid;
+
+  gap: 10px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+#om_os .headings {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
